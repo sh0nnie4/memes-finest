@@ -1,10 +1,13 @@
 body {
     font-family: "Madimi One", sans-serif;
+    background-color: #A19891;
+    
     
 }
 h1 {
     color: purple
   
+
 }
 .madimi-one-regular {
     font-family: "Madimi One", sans-serif;
@@ -12,14 +15,17 @@ h1 {
     font-style: normal;
   }
   header{
-    background-image:
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url("images/memes-logopic.jpg");
     background-repeat: no-repeat;
-  background-size: 500px;
-  color: white;
-  text-align: center;
+  background-size: cover;
+  width: 100%;
+  background-position: right;
+  
+  
   padding: 200px 0;
   }
-  header .img {
+  header background-image {
+    border-radius: 6px;
     max-width: 500px;
   }
