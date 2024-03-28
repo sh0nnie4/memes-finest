@@ -1,11 +1,12 @@
 body {
     font-family: "Madimi One", sans-serif;
-    background-color: #A19891;
+    background-color: white;
     
     
 }
 h1 {
     color: purple
+  
   
 
 }
@@ -15,17 +16,26 @@ h1 {
     font-style: normal;
   }
   header{
-    background-image:  linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("images/memes-logopic.jpg");
+    background-image: linear-gradient(rgba(245, 238, 238, 0.3), rgba(247, 242, 242, 0.3)),
+    url("images/meme-platter-landscape.jpg");
     background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   width: 100%;
+  
   background-position: right;
   
-  
   padding: 200px 0;
+  
   }
-  header background-image {
-    border-radius: 6px;
-    max-width: 500px;
+  header h1 {
+    font-size: 50px;
+    text-align: left;
+    margin-top: 0;
+    
+  }
+  header h2 {
+    
+    text-align: left;
+    inline-size: 500px;
+    overflow-wrap: break-word;
   }
